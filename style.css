@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
-body{
-    background-color: #BEF7EF;
+body {
+    background-color: #D1C4E9; /* darker lavender */
     text-align: center;
 }
+
+
 .container{
-    height: 70vh;
+   height:60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
 }
 .game{
     height:60vmin;
@@ -17,8 +24,36 @@ body{
     justify-content: center;
     align-items: center;
     gap:1.4vmin;
+   
 }
-.box{
-    height: 18vmin;
-    width: 18vmin;
+
+.box {
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 1.1rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-size: 8.5vmin;
+    font-family: 'Fredoka One', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #80CBC4; 
+    cursor: pointer;
+    color: #0D47A1;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+#reset\ btn {
+    margin-top: 2rem; 
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #009688;
+    color: white;
+    cursor: pointer;
 }
