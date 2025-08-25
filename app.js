@@ -25,5 +25,14 @@ boxes.forEach((box) => {
                 turnO=true;
            } 
         box.disabled=true;
+        checker();
     });
 });
+const checker=() =>{
+for(let it of winpart){
+let pos1=boxes[it[0]].innerText;
+let pos2=boxes[it[1]].innerText;
+let pos3=boxes[it[2]].innerText;
+}
+
+}
