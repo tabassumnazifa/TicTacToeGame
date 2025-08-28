@@ -1,3 +1,4 @@
+# Author: Nazifa Tabassum
 # Tic Tac Toe Game
 
 A simple and interactive Tic Tac Toe game built using **HTML**, **CSS**, and **JavaScript**. This game allows two players to play against each other on the same device.
